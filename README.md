@@ -39,7 +39,7 @@
 React Keycloak for Web requires:
 
 - React **16.0** or later
-- `keycloak-js` **9.0.2** or later
+- `keycloak-js` **18.0.0** or later
 
 ```shell
 yarn add @react-keycloak/web
