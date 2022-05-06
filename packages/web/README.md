@@ -39,13 +39,13 @@ React Keycloak requires:
 - `keycloak-js` **9.0.2** or later
 
 ```shell
-yarn add @react-keycloak/web
+yarn add @scherer.adi/react-keycloak-web
 ```
 
 or
 
 ```shell
-npm install --save @react-keycloak/web
+npm install --save @scherer.adi/react-keycloak-web
 ```
 
 ## Getting Started
@@ -69,7 +69,7 @@ export default keycloak
 Wrap your App inside `ReactKeycloakProvider` and pass the `keycloak` instance as prop
 
 ```js
-import { ReactKeycloakProvider } from '@react-keycloak/web'
+import { ReactKeycloakProvider } from '@scherer.adi/react-keycloak-web'
 
 import keycloak from './keycloak'
 
@@ -141,7 +141,7 @@ const App = () => {
 When a component requires access to `Keycloak`, you can use the `useKeycloak` Hook.
 
 ```js
-import { useKeycloak } from '@react-keycloak/web'
+import { useKeycloak } from '@scherer.adi/react-keycloak-web'
 
 export default () => {
   // Using Object destructuring

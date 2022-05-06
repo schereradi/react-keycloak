@@ -42,13 +42,13 @@ React Keycloak for Web requires:
 - `keycloak-js` **18.0.0** or later
 
 ```shell
-yarn add @react-keycloak/web
+yarn add @scherer.adi/react-keycloak-web
 ```
 
 or
 
 ```shell
-npm install --save @react-keycloak/web
+npm install --save @scherer.adi/react-keycloak-web
 ```
 
 or as a `UMD` package through `unpkg`
@@ -70,13 +70,13 @@ React Keycloak for SSR frameworks requires:
 - `keycloak-js` **9.0.2** or later
 
 ```shell
-yarn add @react-keycloak/ssr
+yarn add @scherer.adi/react-keycloak-ssr
 ```
 
 or
 
 ```shell
-npm install --save @react-keycloak/ssr
+npm install --save @scherer.adi/react-keycloak-ssr
 ```
 
 See `@react-keycloak/ssr` package [README](https://github.com/react-keycloak/react-keycloak/blob/master/packages/ssr/README.md) for complete documentation.
@@ -88,13 +88,13 @@ React Keycloak for React Native requires React Native **61.0** or later
 To install run
 
 ```shell
-yarn add @react-keycloak/native
+yarn add @scherer.adi/react-keycloak-native
 ```
 
 or
 
 ```shell
-npm install --save @react-keycloak/native
+npm install --save @scherer.adi/react-keycloak-native
 ```
 
 See `@react-keycloak/native` package [README](https://github.com/react-keycloak/react-native-keycloak/blob/master/README.md) for complete documentation.

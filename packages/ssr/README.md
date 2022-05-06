@@ -39,16 +39,16 @@
 React Keycloak requires:
 
 - React **16.8** or later
-- `keycloak-js` **9.0.2** or later
+- `keycloak-js` **18.0.0** or later
 
 ```shell
-yarn add @react-keycloak/ssr
+yarn add @scherer.adi/react-keycloak-ssr
 ```
 
 or
 
 ```shell
-npm install --save @react-keycloak/ssr
+npm install --save @scherer.adi/react-keycloak-ssr
 ```
 
 ## Getting Started
@@ -65,7 +65,7 @@ Requires NextJS **9** or later
 
 Create the `_app.tsx` file under `pages` folder and wrap your App inside `SSRKeycloakProvider` component and pass `keycloakConfig` and a `TokenPersistor`.
 
-**Note:** `@react-keycloak/ssr` provides a default `TokenPersistor` which works with `cookies` (exported as `ServerPersistors.SSRCookies`).
+**Note:** `@scherer.adi/react-keycloak-ssr` provides a default `TokenPersistor` which works with `cookies` (exported as `ServerPersistors.SSRCookies`).
 
 The following examples will be based on that.
 
@@ -75,7 +75,7 @@ import * as React from 'react'
 import type { IncomingMessage } from 'http'
 import type { AppProps, AppContext } from 'next/app'
 
-import { SSRKeycloakProvider, SSRCookies } from '@react-keycloak/ssr'
+import { SSRKeycloakProvider, SSRCookies } from '@scherer.adi/react-keycloak-ssr'
 
 const keycloakCfg = {
   realm: '',
@@ -123,7 +123,7 @@ Edit your app `server.js` as follow
 ```js
 ...
 
-import { ExpressCookies, SSRKeycloakProvider } from '@react-keycloak/ssr'
+import { ExpressCookies, SSRKeycloakProvider } from '@scherer.adi/react-keycloak-ssr'
 
 // Create a function to retrieve Keycloak configuration parameters -- 'see examples/razzle-app'
 import { getKeycloakConfig } from './utils'
@@ -161,7 +161,7 @@ server
 Edit your `client.js` as follow
 
 ```js
-import { Cookies, SSRKeycloakProvider } from '@react-keycloak/ssr'
+import { Cookies, SSRKeycloakProvider } from '@scherer.adi/react-keycloak-ssr'
 
 // Create a function to retrieve Keycloak configuration parameters -- 'see examples/razzle-app'
 import { getKeycloakConfig } from './utils'
@@ -189,7 +189,7 @@ hydrate(
 When a component requires access to `Keycloak`, you can use the `useKeycloak` Hook.
 
 ```js
-import { useKeycloak } from '@react-keycloak/ssr'
+import { useKeycloak } from '@scherer.adi/react-keycloak-ssr'
 
 export default () => {
   const { keycloak, initialized } = useKeycloak()
@@ -224,7 +224,7 @@ See inside `examples/nextjs-app` and `examples/razzle-app` folders of [`@react-k
 
 ### Securing NextJS API
 
-Whilst `@react-keycloak/ssr` can help you secure the Frontend part of a `NextJS` app if you also want to secure `NextJS`-exposed APIs you can follow the sample in [this issue](https://github.com/react-keycloak/react-keycloak/issues/44#issuecomment-579877959).
+Whilst `@scherer.adi/react-keycloak-ssr` can help you secure the Frontend part of a `NextJS` app if you also want to secure `NextJS`-exposed APIs you can follow the sample in [this issue](https://github.com/react-keycloak/react-keycloak/issues/44#issuecomment-579877959).
 
 Thanks to [@webdeb](https://github.com/webdeb) for reporting the issue and helping develop a solution.
 
