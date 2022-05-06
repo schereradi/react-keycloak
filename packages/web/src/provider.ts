@@ -1,4 +1,4 @@
-import { createAuthProvider } from '@react-keycloak/core'
+import { createAuthProvider } from '@scherer.adi/react-keycloak-core'
 
 import { reactKeycloakWebContext } from './context'
 

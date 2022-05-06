@@ -67,8 +67,8 @@
     }
   },
   "dependencies": {
-    "@react-keycloak/core": "file:packages/core",
-    "@react-keycloak/ssr": "file:packages/ssr",
-    "@react-keycloak/web": "file:packages/web"
+    "@scherer.adi/react-keycloak-core": "file:packages/core",
+    "@scherer.adi/react-keycloak-ssr": "file:packages/ssr",
+    "@scherer.adi/react-keycloak-web": "file:packages/web"
   }
 }

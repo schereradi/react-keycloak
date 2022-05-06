@@ -1,5 +1,5 @@
 {
-  "name": "@react-keycloak/web",
+  "name": "@scherer.adi/react-keycloak-web",
   "version": "3.4.1",
   "license": "MIT",
   "description": "React bindings for Keycloak javascript adapter",
@@ -59,7 +59,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.9.0",
-    "@react-keycloak/core": "file:../core",
+    "@scherer.adi/react-keycloak-core": "file:../core",
     "hoist-non-react-statics": "^3.3.2"
   },
   "jest": {

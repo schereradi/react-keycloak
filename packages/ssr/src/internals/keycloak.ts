@@ -1,4 +1,4 @@
-import type { AuthClient } from '@react-keycloak/core'
+import type { AuthClient } from '@scherer.adi/react-keycloak-core'
 import type { KeycloakConfig } from 'keycloak-js'
 
 import type { TokenPersistor } from '../persistors/types'

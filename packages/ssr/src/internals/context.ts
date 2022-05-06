@@ -1,5 +1,5 @@
-import { createAuthContext } from '@react-keycloak/core'
-import type { AuthClient } from '@react-keycloak/core'
+import { createAuthContext } from '@scherer.adi/react-keycloak-core'
+import type { AuthClient } from '@scherer.adi/react-keycloak-core'
 
 import { isServer } from './utils'
 

@@ -1,4 +1,4 @@
-import type { AuthClientTokens } from '@react-keycloak/core'
+import type { AuthClientTokens } from '@scherer.adi/react-keycloak-core'
 
 /**
  * TokenPersistor
