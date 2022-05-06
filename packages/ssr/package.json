@@ -60,7 +60,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.9.0",
-    "@scherer.adi/react-keycloak-core": "file:../core",
+    "@scherer.adi/react-keycloak-core": "^3.2.1",
     "detect-node": "^2.0.4",
     "hoist-non-react-statics": "^3.3.2",
     "js-base64": "^3.4.5",
