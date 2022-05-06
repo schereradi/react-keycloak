@@ -1,6 +1,6 @@
 {
   "name": "@scherer.adi/react-keycloak-core",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "license": "MIT",
   "description": "React bindings for Keycloak javascript adapter (core)",
   "repository": {

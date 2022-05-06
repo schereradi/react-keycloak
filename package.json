@@ -67,8 +67,8 @@
     }
   },
   "dependencies": {
-    "@scherer.adi/react-keycloak-core": "^3.2.1",
-    "@scherer.adi/react-keycloak-ssr": "^3.3.1",
-    "@scherer.adi/react-keycloak-web": "^3.4.1"
+    "@scherer.adi/react-keycloak-core": "^3.2.2",
+    "@scherer.adi/react-keycloak-ssr": "^3.3.2",
+    "@scherer.adi/react-keycloak-web": "^3.4.2"
   }
 }
